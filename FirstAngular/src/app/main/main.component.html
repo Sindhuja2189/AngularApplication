@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+ 
+<html>
+ 
+<head>
+    <title>Simple web Development Template</title>
+ <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script> -->
+<!-- <script>
+var app = angular.module('myApp', ["ngRoute"]);
+app.controller('myCtrl', function($scope) {
+    $scope.name = "Sindhu";
+    $scope.Statelist =['karnataka','Andra Pradesh','Tamilnadu']
+    $scope.Addstates=function(){
+    $scope.Statelist.push($scope.addlist);
+    }
+
+});
+app.config(function($routeProvider) {
+    $routeProvider
+    .when("/district", {
+        templateUrl : "district.htm"
+    });
+    
+});
+</script> -->
+   
+</head>
+ 
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+           <b> <li><a href="#Login">Login</a></li></b>
+           <b> <li><a href="#Bind">Module</a></li></b>
+           <b> <li><a href="#About">About Us</a></li></b>
+        </ul>
+    </nav>
+    <app-image></app-image>
+    <section class="firstsection">
+        <div class="box-main">
+            <div class="Main" id="Bind">
+               
+             <div ng-app="myApp" ng-controller="myCtrl">
+<h1>Welcome: {{name}}</h1>
+<br> 
+<b>Name:</b> <input type="text" [(ngModel)]="name"/>
+<!-- <b>State:<select><option>--Select--</option>
+<option ng-repeat="x in Statelist"></option></select></b> -->
+<!-- <br><br><b>Add States:</b><input ng-model="addlist" style="margin-right: 2px"><button ng-click="Addstates()" class="btn">Add</button> -->
+</div>
+            </div>
+        </div>
+<p class="ng-prg"><b>Fitness involves activity of some sort that stimulates various systems of the body and maintains a certain condition within the body. 
+    <br>Health, on the other hand, involves every system of the body and is only achieved through a lifestyle that supports health.</b>b</p>
+
+    </section>
+     <footer class="background">
+       <marquee behaviour="scroll" direction="left"> <p class="text-footer">
+            Copyright ©-All rights are reserved
+        </p>
+    </marquee>
+ 
+    </footer>
+</body>
+ 
+</html>

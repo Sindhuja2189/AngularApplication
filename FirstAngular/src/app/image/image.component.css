@@ -1,0 +1,17 @@
+.imgdiv{      
+    margin-left: auto;      
+    height: 140px;   
+        
+}      
+.img1{      
+    height: 150px;      
+    width:500px;
+    align-items: center;
+           
+}  
+.img2{      
+    height: 150px;      
+    width:200px;
+    align-items: center;
+           
+} 
