@@ -18,7 +18,7 @@
 }
 
 .background {
-    background: black;
+    background: #1976d2;
     background-blend-mode: darken;
     background-size: cover;
 }
@@ -38,7 +38,7 @@
 .nav-list li a {
     text-decoration: none;
     font-size: 30x;
-    color: white;
+    color: black;
 }
 
 .nav-list li a:hover {
@@ -51,10 +51,15 @@
 }
 
    .firstsection {
-    background-color: rgb(243, 203, 175);
+    /* background-color: rgb(243, 203, 175); */
     height: 400px;
 }
-
+.padding
+{
+padding-right: 1000px;
+align-items: center;
+padding-top: 30px;
+}
 
 .box-main {
     display: flex;
@@ -64,7 +69,8 @@
     max-width: 80%;
     margin: auto;
     height: 80%;
-}
+    font-size: 30px;
+    }
 
 .Main {
     width: 100%;
@@ -124,7 +130,7 @@
     font-family: 'Ubuntu', sans-serif;
     display: flex;
     justify-content: center;
-    color: white;
+    color: back;
 }
 .ng-prg{
   text-align: center;
@@ -136,4 +142,8 @@
   font-size: 20px;
   padding-bottom: 30px;
 
+}
+.main-div mat-card
+{ padding: 0px;
+border: 2cap;
 }
